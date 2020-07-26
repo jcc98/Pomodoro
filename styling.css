@@ -1,0 +1,133 @@
+body {
+  background-color: #afafaf;
+  font-family: "Roboto Condensed";
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff758c), color-stop(150%, #ff7eb3));
+  background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 150%);
+}
+
+.container {
+  text-align: center;
+}
+
+.pom {
+  color: #f0efe0;
+  letter-spacing: .15rem;
+  font-size: 3rem;
+}
+
+.pom-counter {
+  color: #ebe8e8;
+}
+
+#time {
+  color: white;
+  font-size: 4.5rem;
+  text-shadow: 2px 2px 4px #d15e71;
+}
+
+#time-break {
+  color: white;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px #d15e71;
+}
+
+#task {
+  text-align: center;
+  font-family: "Roboto Condensed";
+  border-radius: .5rem;
+  outline: none;
+  border: none;
+  padding: .4rem .8rem;
+}
+
+#the-task {
+  font-size: 2rem;
+}
+
+#submit-task {
+  border: 2px #d15e71 solid;
+  border-radius: .4rem;
+  background-color: #fff;
+  padding: .2rem .7rem;
+  outline: none;
+  cursor: pointer;
+}
+
+#submit-task:active {
+  -webkit-transform: translate(0, 5%);
+          transform: translate(0, 5%);
+}
+
+.container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 2.5rem;
+}
+
+.document-export {
+  color: #fff;
+  text-decoration: none;
+}
+
+.task-text {
+  color: #e6e1e1;
+  font-size: 1.38rem;
+  font-style: italic;
+  opacity: .80;
+}
+
+.top-styling {
+  border: 1px solid #fff;
+  padding: .3rem .5rem;
+}
+
+.expl {
+  font-weight: bolder;
+  color: #e6e1e1;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-style: italic;
+}
+
+.expl:hover {
+  opacity: .7;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.toggle-exp-content {
+  display: none;
+}
+
+.exp-styling {
+  color: #fff;
+  margin: 0 30%;
+  line-height: 2rem;
+  font-style: italic;
+}
+
+.btn-style {
+  padding: .5rem .8rem;
+  color: #d15e71;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  border: 2px solid #d15e71;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-style:hover {
+  background-color: #ff748b;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  color: #fff;
+}
+/*# sourceMappingURL=styling.css.map */

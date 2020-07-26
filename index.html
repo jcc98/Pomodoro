@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-flex">
+            <div class="pom-counter top-styling">Pomodoro counter: <span id="insert-counter"></span></div>
+            <a href="#" class="document-export top-styling">Export today's progress</a>
+        </div>
+
+        <h2 class="pom">Pomodoro timer <br><span id="the-task"></span></h2>
+        </h2>
+        <p class="expl" id="explanation">What is Pomodoro?</p>
+        <p class="toggle-exp-content exp-styling" id="explanation-content">The Pomodoro Technique is a time management
+            method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work
+            into intervals, traditionally 25 minutes in length, separated by short breaks.</p>
+        <p class="task-text">What task are you going to focus on?</p>
+        <input type="text" id="task" placeholder="Task...">
+        <input type="submit" id="submit-task" value="Save task">
+        <h3 id="time"></h3>
+        <h3 id="time-break"></h3>
+
+
+        <input type="button" id="btn1" class="btn-style" value="Start timer">
+        <input type="button" id="btn2" class="btn-style" value="Pause timer">
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
